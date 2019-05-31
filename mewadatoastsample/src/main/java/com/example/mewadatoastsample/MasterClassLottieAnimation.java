@@ -2,22 +2,24 @@ package com.example.mewadatoastsample;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.util.AttributeSet;
-import android.view.View;
+import android.support.v7.widget.AppCompatImageView;
 
+
+import android.util.AttributeSet;
 import android.widget.Toast;
 
-public class MasterClass extends android.support.v7.widget.AppCompatButton implements View.OnClickListener {
+public class MasterClassLottieAnimation extends AppCompatImageView {
 
-    public MasterClass(Context context) {
+
+    public MasterClassLottieAnimation(Context context) {
         super(context);
     }
 
-    public MasterClass(Context context, AttributeSet attrs) {
+    public MasterClassLottieAnimation(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public MasterClass(Context context, AttributeSet attrs, int defStyleAttr) {
+    public MasterClassLottieAnimation(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
@@ -34,8 +36,4 @@ public class MasterClass extends android.support.v7.widget.AppCompatButton imple
         return cal;
     }
 
-    @Override
-    public void onClick(View v) {
-      progresssDialog(getContext(),"Title","Description");
-    }
 }
