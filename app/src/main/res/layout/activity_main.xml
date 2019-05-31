@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+    <
+    <com.example.sampletoastlibarary.MasterClassLottieAnimation
+        android:layout_width="100dp"
+        app:lottie_loop="true"
+        android:id="@+id/lottie"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/voice_recognition"
+        android:layout_height="100dp" />
 
 </android.support.constraint.ConstraintLayout>

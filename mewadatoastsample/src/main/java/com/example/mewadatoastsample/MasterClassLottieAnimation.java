@@ -5,9 +5,11 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.Toast;
 import com.airbnb.lottie.LottieAnimationView;
+import com.airbnb.lottie.LottieDrawable;
 
 
 public class MasterClassLottieAnimation extends LottieAnimationView {
+
 
     public MasterClassLottieAnimation(Context context) {
         super(context);
@@ -32,6 +34,13 @@ public class MasterClassLottieAnimation extends LottieAnimationView {
     private static  int accessUser(Context context, int cal){
         cal =  12 * 10;
         return cal;
+    }
+
+    public static void initilizationButtonStart(Context context){
+        LottieAnimationView lottieAnimationView = new LottieAnimationView(context);
+        lottieAnimationView.setAnimation(R.raw.processing);
+        lottieAnimationView.setRepeatCount(LottieDrawable.INFINITE);
+        lottieAnimationView.playAnimation();
     }
 
 }
