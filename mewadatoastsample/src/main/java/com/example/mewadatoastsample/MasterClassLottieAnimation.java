@@ -2,15 +2,12 @@ package com.example.mewadatoastsample;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-
 import android.util.AttributeSet;
-
-
 import android.widget.Toast;
-
 import com.airbnb.lottie.LottieAnimationView;
 
-public class MasterClassLottieAnimation  extends LottieAnimationView {
+
+public class MasterClassLottieAnimation extends LottieAnimationView {
 
 
     public MasterClassLottieAnimation(Context context) {
