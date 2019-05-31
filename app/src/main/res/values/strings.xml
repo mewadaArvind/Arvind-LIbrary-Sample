@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Sample Toast Libarary</string>
+    <string name="app_name" translatable="false">BuildExample</string>
+    <string name="hello_world">This is the flavor</string>
+    <string name="action_settings" translatable="false">Settings</string>
 </resources>

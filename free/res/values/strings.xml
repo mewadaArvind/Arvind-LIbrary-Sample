@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">free</string>
+    <string name="hello_world">This is the paid  flavor</string>
+    <string name="action_settings" translatable="false">Settings</string>
+</resources>
