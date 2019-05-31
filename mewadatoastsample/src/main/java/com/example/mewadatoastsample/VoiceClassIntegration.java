@@ -2,7 +2,7 @@ package com.example.mewadatoastsample;
 
 import android.content.Context;
 
-abstract class VoiceClassIntegration extends MasterClass{
+public abstract class VoiceClassIntegration extends MasterClass{
 
     private static int noAccessUserThis(Context context,int calculation){
         calculation  = 12 * 12;

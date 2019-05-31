@@ -12,4 +12,9 @@ public class MasterClass {
     public static void progresssDialog (Context context,String title, String descriptionMessage){
         ProgressDialog.show(context,title,descriptionMessage);
     }
+
+    private static  int accessUser(Context context, int cal){
+        cal =  12 * 10;
+        return cal;
+    }
 }
