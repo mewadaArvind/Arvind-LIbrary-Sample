@@ -1,10 +1,23 @@
 package com.example.mewadatoastsample;
 
 import android.content.Context;
+import android.util.AttributeSet;
 
 public abstract class VoiceClassIntegration extends MasterClass{
 
-    private static int noAccessUserThis(Context context,int calculation){
+    public VoiceClassIntegration(Context context) {
+        super(context);
+    }
+
+    public VoiceClassIntegration(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public VoiceClassIntegration(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+    }
+
+    private static int noAccessUserThis(Context context, int calculation){
         calculation  = 12 * 12;
         return calculation;
     }
