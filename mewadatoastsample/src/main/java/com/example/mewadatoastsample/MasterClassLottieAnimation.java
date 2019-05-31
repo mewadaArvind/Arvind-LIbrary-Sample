@@ -9,7 +9,6 @@ import com.airbnb.lottie.LottieAnimationView;
 
 public class MasterClassLottieAnimation extends LottieAnimationView {
 
-
     public MasterClassLottieAnimation(Context context) {
         super(context);
     }
